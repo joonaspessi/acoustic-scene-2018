@@ -16,9 +16,9 @@ Best result was achieved with `Support vector machine` -classifier (Sklearn SVC)
 
 ```json
 {
-    'C': 45.0, 'decision_function_shape':
-    'ovr', 'gamma': 1.12,
-    'kernel': 'rbf'
+    "C": 45.0, "decision_function_shape":
+    "ovr", "gamma": 1.12,
+    "kernel": "rbf"
 }
 ```
 
