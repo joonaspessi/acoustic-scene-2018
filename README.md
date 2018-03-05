@@ -9,3 +9,17 @@ Acoustic scene classification attempts to categorize audio signals into predeter
 In this competition, the data consists of recordings of 15 different contexts (classes) such as beach, home, restaurant, etc. The recordings have been cut to 10 second long segments, of which the organizers have computed the mel-spectra as the input to your algorithm.
 
 The organizers would like to thank the Audio Research Group of Tampere University of Technology (TUT) for kindly providing access to the competition data. Parts of the data have been used for annual DCASE competitions; see e.g., DCASE2017.
+
+## Results
+
+Best result was achieved with `Support vector machine` -classifier (Sklearn SVC) by using hyperparameters:
+
+```json
+{
+    'C': 45.0, 'decision_function_shape':
+    'ovr', 'gamma': 1.12,
+    'kernel': 'rbf'
+}
+```
+
+Cross validation score for SVC was 72.48% which had 70.4% private score in competition results
